@@ -91,7 +91,7 @@ th,td{
 .banner img {
     padding-top: 100px;
     object-position: top;
-    width: 100%;
+    width: 120%;
     height: 450px;
     object-fit: cover;
     display: block;
