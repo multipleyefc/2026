@@ -124,7 +124,15 @@ table.plenary{padding-top: 8px; background: #ffffff;}
 
 /* Registration and Directions iframes and Images */
 iframe.registration{display:block; margin:1em auto 2em auto; width:700px; height:1400px; border:none;}
-iframe.directions{display:block; margin:1em auto 2em auto; width:800px; height:400px; border:none;}
+iframe.directions {
+    display: block;       /* This is the most important part for centering */
+    margin-left: auto;    /* Pushes from the left */
+    margin-right: auto;   /* Pushes from the right */
+    width: 100%;          /* Or a specific width like 800px */
+    max-width: 900px;     /* Prevents it from getting too large on big screens */
+    height: 450px;
+    border: none;
+}
 img.center{display:block; width:67%; margin:1em auto 2em auto;}
 
 /* Flyer Images */
