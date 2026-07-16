@@ -13,6 +13,124 @@
     <meta name="distribution" content="global">
     <meta name="KeyWords" content="MultiplEYE, Eye-tracking, Psycholinguistics, NLP, Conference, Skopje">
     <title>Program | MultiplEYE Final Conference</title>
+    
+    <style>
+        /* Scoped styles for the program content to prevent overwriting the main template */
+        .program-container { 
+            max-width: 900px; 
+            margin: 40px auto; 
+            background: #fff; 
+            padding: 40px; 
+            border-radius: 8px; 
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            line-height: 1.6; 
+            color: #333; 
+        }
+        .program-container h1 { 
+            text-align: center; 
+            color: #2c3e50; 
+            border-bottom: 3px solid #3498db; 
+            padding-bottom: 15px;
+            margin-bottom: 30px;
+            font-size: 2.5em;
+        }
+        .program-container h2 { 
+            color: #2980b9; 
+            margin-top: 40px; 
+            border-bottom: 2px solid #ecf0f1; 
+            padding-bottom: 10px; 
+            font-size: 1.8em;
+        }
+        .program-container h3 { 
+            color: #e67e22; 
+            margin-top: 30px; 
+            font-size: 1.3em; 
+        }
+        .program-container .schedule-item { 
+            display: flex; 
+            flex-wrap: wrap;
+            margin-bottom: 12px; 
+            padding: 12px 15px; 
+            background: #fdfdfd; 
+            border-left: 4px solid #3498db;
+            border-radius: 0 4px 4px 0;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+        .program-container .time { 
+            min-width: 140px; 
+            font-weight: bold; 
+            color: #2c3e50; 
+        }
+        .program-container .details { 
+            flex-grow: 1; 
+        }
+        .program-container .event-title {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 4px;
+            color: #2c3e50;
+        }
+        .program-container .speaker { 
+            font-weight: 600; 
+            color: #555; 
+        }
+        .program-container .title { 
+            font-style: italic; 
+            color: #666; 
+        }
+        .program-container .sub-item { 
+            display: flex; 
+            margin-top: 10px; 
+            padding-left: 15px; 
+            border-left: 2px solid #bdc3c7; 
+            margin-bottom: 10px;
+        }
+        .program-container .sub-time { 
+            min-width: 70px; 
+            font-weight: bold; 
+            font-size: 0.9em; 
+            color: #7f8c8d; 
+        }
+        .program-container .sub-details {
+            font-size: 0.95em;
+        }
+        .program-container .poster-section {
+            background: #fafafa;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .program-container .poster-list { 
+            list-style-type: none; 
+            padding: 0; 
+        }
+        .program-container .poster-list li { 
+            background: #fff; 
+            margin-bottom: 15px; 
+            padding: 15px; 
+            border: 1px solid #e0e0e0; 
+            border-radius: 6px; 
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+        .program-container .poster-authors { 
+            font-weight: bold; 
+            color: #34495e; 
+            display: block;
+            margin-bottom: 5px;
+        }
+        .program-container .poster-title { 
+            font-style: italic; 
+            color: #7f8c8d; 
+        }
+        .program-container a {
+            color: #3498db;
+            text-decoration: none;
+        }
+        .program-container a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
 <body>
@@ -47,340 +165,217 @@
         </tr>
     </table>
 
-<style>
-    body { 
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-        line-height: 1.6; 
-        color: #333; 
-        background-color: #f4f7f6; 
-        margin: 0; 
-        padding: 40px 20px; 
-    }
-    .container { 
-        max-width: 900px; 
-        margin: 0 auto; 
-        background: #fff; 
-        padding: 40px; 
-        border-radius: 8px; 
-        box-shadow: 0 4px 12px rgba(0,0,0,0.1); 
-    }
-    h1 { 
-        text-align: center; 
-        color: #2c3e50; 
-        border-bottom: 3px solid #3498db; 
-        padding-bottom: 15px;
-        margin-bottom: 30px;
-        font-size: 2.5em;
-    }
-    h2 { 
-        color: #2980b9; 
-        margin-top: 40px; 
-        border-bottom: 2px solid #ecf0f1; 
-        padding-bottom: 10px; 
-        font-size: 1.8em;
-    }
-    h3 { 
-        color: #e67e22; 
-        margin-top: 30px; 
-        font-size: 1.3em; 
-    }
-    .schedule-item { 
-        display: flex; 
-        flex-wrap: wrap;
-        margin-bottom: 12px; 
-        padding: 12px 15px; 
-        background: #fdfdfd; 
-        border-left: 4px solid #3498db;
-        border-radius: 0 4px 4px 0;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.05);
-    }
-    .time { 
-        min-width: 140px; 
-        font-weight: bold; 
-        color: #2c3e50; 
-    }
-    .details { 
-        flex-grow: 1; 
-    }
-    .event-title {
-        font-weight: bold;
-        font-size: 1.1em;
-        margin-bottom: 4px;
-        color: #2c3e50;
-    }
-    .speaker { 
-        font-weight: 600; 
-        color: #555; 
-    }
-    .title { 
-        font-style: italic; 
-        color: #666; 
-    }
-    .sub-item { 
-        display: flex; 
-        margin-top: 10px; 
-        padding-left: 15px; 
-        border-left: 2px solid #bdc3c7; 
-        margin-bottom: 10px;
-    }
-    .sub-time { 
-        min-width: 70px; 
-        font-weight: bold; 
-        font-size: 0.9em; 
-        color: #7f8c8d; 
-    }
-    .sub-details {
-        font-size: 0.95em;
-    }
-    .poster-section {
-        background: #fafafa;
-        padding: 20px;
-        border-radius: 8px;
-        margin-top: 20px;
-    }
-    .poster-list { 
-        list-style-type: none; 
-        padding: 0; 
-    }
-    .poster-list li { 
-        background: #fff; 
-        margin-bottom: 15px; 
-        padding: 15px; 
-        border: 1px solid #e0e0e0; 
-        border-radius: 6px; 
-        box-shadow: 0 2px 4px rgba(0,0,0,0.02);
-    }
-    .poster-authors { 
-        font-weight: bold; 
-        color: #34495e; 
-        display: block;
-        margin-bottom: 5px;
-    }
-    .poster-title { 
-        font-style: italic; 
-        color: #7f8c8d; 
-    }
-    a {
-        color: #3498db;
-        text-decoration: none;
-    }
-    a:hover {
-        text-decoration: underline;
-    }
-</style>
-</head>
-<body>
-<div class="container">
-    <h1>Conference Program</h1>
+    <div class="program-container">
+        <h1>Conference Program</h1>
 
-    <!-- DAY 1 -->
-    <h2>Day 1: 20 August 2026</h2>
-    
-    <div class="schedule-item">
-        <div class="time">8:30 - 9:00</div>
-        <div class="details"><div class="event-title">Registration and Coffee</div></div>
-    </div>
-    
-    <div class="schedule-item">
-        <div class="time">9:00 - 9:30</div>
-        <div class="details"><div class="event-title">Opening Remarks</div>(Local Organizer & MultiplEYE chairs)</div>
-    </div>
-    
-    <div class="schedule-item">
-        <div class="time">9:30 - 10:30</div>
-        <div class="details">
-            <div class="event-title">Invited Talk 1</div>
-            <span class="speaker">Elizabeth R. Schotter:</span> <span class="title">Reading efficiency: Optimal coordination between eye movements and distributed language processing</span>
+        <!-- DAY 1 -->
+        <h2>Day 1: 20 August 2026</h2>
+        
+        <div class="schedule-item">
+            <div class="time">8:30 - 9:00</div>
+            <div class="details"><div class="event-title">Registration and Coffee</div></div>
         </div>
-    </div>
-    
-    <div class="schedule-item">
-        <div class="time">10:30 - 11:00</div>
-        <div class="details"><div class="event-title">Coffee Break</div></div>
-    </div>
-    
-    <div class="schedule-item">
-        <div class="time">11:00 - 12:15</div>
-        <div class="details"><div class="event-title">MultiplEYE Session 1</div></div>
-    </div>
-    
-    <div class="schedule-item" style="flex-direction: column;">
-        <div style="display: flex;">
-            <div class="time">12:15 - 13:00</div>
-            <div class="details"><div class="event-title">Short Talks</div></div>
+        
+        <div class="schedule-item">
+            <div class="time">9:00 - 9:30</div>
+            <div class="details"><div class="event-title">Opening Remarks</div>(Local Organizer & MultiplEYE chairs)</div>
         </div>
-        <div class="sub-item">
-            <div class="sub-time">12:15</div>
-            <div class="sub-details"><span class="speaker">Cui Ding, Ethan Gotlieb Wilcox, Lena Ann Jäger:</span> <span class="title">Individual Differences of Spillover in Naturalistic Reading</span></div>
+        
+        <div class="schedule-item">
+            <div class="time">9:30 - 10:30</div>
+            <div class="details">
+                <div class="event-title">Invited Talk 1</div>
+                <span class="speaker">Elizabeth R. Schotter:</span> <span class="title">Reading efficiency: Optimal coordination between eye movements and distributed language processing</span>
+            </div>
         </div>
-        <div class="sub-item">
-            <div class="sub-time">12:30</div>
-            <div class="sub-details"><span class="speaker">Li Kloostra, Rick Nouwen, Jakub Dotlacil:</span> <span class="title">Coherence illusions in discourse processing: eye-tracking and acceptability studies on presupposition resolution with ’again’</span></div>
+        
+        <div class="schedule-item">
+            <div class="time">10:30 - 11:00</div>
+            <div class="details"><div class="event-title">Coffee Break</div></div>
         </div>
-        <div class="sub-item">
-            <div class="sub-time">12:45</div>
-            <div class="sub-details"><span class="speaker">Candace M. van der Stelt, Elise Bossenbroek, Kelly Knollman-Porter, Karen Hux, Sarah E. Wallace:</span> <span class="title">Effects of text simplification on reading comprehension accuracy, perceived difficulty, and reading fluency in post-stroke aphasia</span></div>
+        
+        <div class="schedule-item">
+            <div class="time">11:00 - 12:15</div>
+            <div class="details"><div class="event-title">MultiplEYE Session 1</div></div>
         </div>
-    </div>
-    
-    <div class="schedule-item">
-        <div class="time">13:00 - 14:30</div>
-        <div class="details"><div class="event-title">Lunch</div></div>
-    </div>
-    
-    <div class="schedule-item">
-        <div class="time">14:30 - 15:30</div>
-        <div class="details"><div class="event-title">MultiplEYE Session 2</div></div>
-    </div>
-    
-    <div class="schedule-item">
-        <div class="time">15:30 - 16:30</div>
-        <div class="details">
-            <div class="event-title">Invited Talk 2</div>
-            <span class="speaker">Noam Siegelman:</span> <span class="title">Reading As Statistical Learning: New Insights from the Multilingual Eye-Movement Corpus (MECO)</span>
+        
+        <div class="schedule-item" style="flex-direction: column;">
+            <div style="display: flex;">
+                <div class="time">12:15 - 13:00</div>
+                <div class="details"><div class="event-title">Short Talks</div></div>
+            </div>
+            <div class="sub-item">
+                <div class="sub-time">12:15</div>
+                <div class="sub-details"><span class="speaker">Cui Ding, Ethan Gotlieb Wilcox, Lena Ann Jäger:</span> <span class="title">Individual Differences of Spillover in Naturalistic Reading</span></div>
+            </div>
+            <div class="sub-item">
+                <div class="sub-time">12:30</div>
+                <div class="sub-details"><span class="speaker">Li Kloostra, Rick Nouwen, Jakub Dotlacil:</span> <span class="title">Coherence illusions in discourse processing: eye-tracking and acceptability studies on presupposition resolution with ’again’</span></div>
+            </div>
+            <div class="sub-item">
+                <div class="sub-time">12:45</div>
+                <div class="sub-details"><span class="speaker">Candace M. van der Stelt, Elise Bossenbroek, Kelly Knollman-Porter, Karen Hux, Sarah E. Wallace:</span> <span class="title">Effects of text simplification on reading comprehension accuracy, perceived difficulty, and reading fluency in post-stroke aphasia</span></div>
+            </div>
         </div>
-    </div>
-    
-    <div class="schedule-item">
-        <div class="time">16:30 - 17:30</div>
-        <div class="details"><div class="event-title">Poster Session and Coffee Break</div>(7 posters)</div>
-    </div>
-    
-    <div class="schedule-item">
-        <div class="time">19:00</div>
-        <div class="details">
-            <div class="event-title">Social Event / Dinner</div>
-            Restaurant Lira <br>
-            <em>Location: Ul. Nikola Tesla 11</em> <a href="https://maps.app.goo.gl/mG1CxVxts1vmDeT76" target="_blank">[Map]</a>
+        
+        <div class="schedule-item">
+            <div class="time">13:00 - 14:30</div>
+            <div class="details"><div class="event-title">Lunch</div></div>
         </div>
-    </div>
+        
+        <div class="schedule-item">
+            <div class="time">14:30 - 15:30</div>
+            <div class="details"><div class="event-title">MultiplEYE Session 2</div></div>
+        </div>
+        
+        <div class="schedule-item">
+            <div class="time">15:30 - 16:30</div>
+            <div class="details">
+                <div class="event-title">Invited Talk 2</div>
+                <span class="speaker">Noam Siegelman:</span> <span class="title">Reading As Statistical Learning: New Insights from the Multilingual Eye-Movement Corpus (MECO)</span>
+            </div>
+        </div>
+        
+        <div class="schedule-item">
+            <div class="time">16:30 - 17:30</div>
+            <div class="details"><div class="event-title">Poster Session and Coffee Break</div>(7 posters)</div>
+        </div>
+        
+        <div class="schedule-item">
+            <div class="time">19:00</div>
+            <div class="details">
+                <div class="event-title">Social Event / Dinner</div>
+                Restaurant Lira <br>
+                <em>Location: Ul. Nikola Tesla 11</em> <a href="https://maps.app.goo.gl/mG1CxVxts1vmDeT76" target="_blank">[Map]</a>
+            </div>
+        </div>
 
-    <!-- DAY 2 -->
-    <h2>Day 2: 21 August 2026</h2>
-    
-    <div class="schedule-item">
-        <div class="time">8:30 - 9:00</div>
-        <div class="details"><div class="event-title">Registration and Coffee</div></div>
-    </div>
-    
-    <div class="schedule-item">
-        <div class="time">9:00 - 10:00</div>
-        <div class="details">
-            <div class="event-title">Invited Talk 3</div>
-            <span class="speaker">Ekta Sood:</span> <span class="title">From Human Gaze to Behavior-Grounded AI</span>
+        <!-- DAY 2 -->
+        <h2>Day 2: 21 August 2026</h2>
+        
+        <div class="schedule-item">
+            <div class="time">8:30 - 9:00</div>
+            <div class="details"><div class="event-title">Registration and Coffee</div></div>
         </div>
-    </div>
-    
-    <div class="schedule-item" style="flex-direction: column;">
-        <div style="display: flex;">
-            <div class="time">10:00 - 10:45</div>
-            <div class="details"><div class="event-title">Short Talks</div></div>
+        
+        <div class="schedule-item">
+            <div class="time">9:00 - 10:00</div>
+            <div class="details">
+                <div class="event-title">Invited Talk 3</div>
+                <span class="speaker">Ekta Sood:</span> <span class="title">From Human Gaze to Behavior-Grounded AI</span>
+            </div>
         </div>
-        <div class="sub-item">
-            <div class="sub-time">10:00</div>
-            <div class="sub-details"><span class="speaker">Daniel G. Krakowczyk, Carlson Moses Büth, David Robert Reich, Deborah Noemie Jakobi, Paul Prasse, Andreas Säuberli, Anastassia Shaitarova, Lena Ann Jäger:</span> <span class="title">pymovements: Building Blocks for Reproducible Eye-Tracking Pipelines</span></div>
+        
+        <div class="schedule-item" style="flex-direction: column;">
+            <div style="display: flex;">
+                <div class="time">10:00 - 10:45</div>
+                <div class="details"><div class="event-title">Short Talks</div></div>
+            </div>
+            <div class="sub-item">
+                <div class="sub-time">10:00</div>
+                <div class="sub-details"><span class="speaker">Daniel G. Krakowczyk, Carlson Moses Büth, David Robert Reich, Deborah Noemie Jakobi, Paul Prasse, Andreas Säuberli, Anastassia Shaitarova, Lena Ann Jäger:</span> <span class="title">pymovements: Building Blocks for Reproducible Eye-Tracking Pipelines</span></div>
+            </div>
+            <div class="sub-item">
+                <div class="sub-time">10:15</div>
+                <div class="sub-details"><span class="speaker">Reinhold Kliegl, Maximilian M. Rabe:</span> <span class="title">Integrating Statistical and Computational Modeling of Eye Movement Control in Reading with a Linked Mixture Model</span></div>
+            </div>
+            <div class="sub-item">
+                <div class="sub-time">10:30</div>
+                <div class="sub-details"><span class="speaker">Anna Bondar, David Robert Reich, Lena Ann Jäger:</span> <span class="title">Mixture of Readers (MoRe): Enabling Scanpath Generation for Different Reader Groups</span></div>
+            </div>
         </div>
-        <div class="sub-item">
-            <div class="sub-time">10:15</div>
-            <div class="sub-details"><span class="speaker">Reinhold Kliegl, Maximilian M. Rabe:</span> <span class="title">Integrating Statistical and Computational Modeling of Eye Movement Control in Reading with a Linked Mixture Model</span></div>
+        
+        <div class="schedule-item">
+            <div class="time">10:45 - 11:45</div>
+            <div class="details"><div class="event-title">Poster Session and Coffee Break</div>(7 posters)</div>
         </div>
-        <div class="sub-item">
-            <div class="sub-time">10:30</div>
-            <div class="sub-details"><span class="speaker">Anna Bondar, David Robert Reich, Lena Ann Jäger:</span> <span class="title">Mixture of Readers (MoRe): Enabling Scanpath Generation for Different Reader Groups</span></div>
+        
+        <div class="schedule-item" style="flex-direction: column;">
+            <div style="display: flex;">
+                <div class="time">11:45 - 12:30</div>
+                <div class="details"><div class="event-title">Short Talks</div></div>
+            </div>
+            <div class="sub-item">
+                <div class="sub-time">11:45</div>
+                <div class="sub-details"><span class="speaker">Annika Kängsepp, Maarja-Liisa Pilvik, Kaidi Lõo, Külli Habicht, Liina Lindström:</span> <span class="title">Reading standard and nonstandard parallel forms in Estonian</span></div>
+            </div>
+            <div class="sub-item">
+                <div class="sub-time">12:00</div>
+                <div class="sub-details"><span class="speaker">Johanne S. K. Nedergaard, Solvej W. Jaeger, Ivalo I. Mathiassen:</span> <span class="title">Tracking reading in Kalaallisut: The morpheme as the basic unit of analysis</span></div>
+            </div>
+            <div class="sub-item">
+                <div class="sub-time">12:15</div>
+                <div class="sub-details"><span class="speaker">Maroš Filip, Michaela Svoboda, Kateřina Chládková:</span> <span class="title">Eye-tracking of sign language: the effect of learning experience</span></div>
+            </div>
         </div>
-    </div>
-    
-    <div class="schedule-item">
-        <div class="time">10:45 - 11:45</div>
-        <div class="details"><div class="event-title">Poster Session and Coffee Break</div>(7 posters)</div>
-    </div>
-    
-    <div class="schedule-item" style="flex-direction: column;">
-        <div style="display: flex;">
-            <div class="time">11:45 - 12:30</div>
-            <div class="details"><div class="event-title">Short Talks</div></div>
+        
+        <div class="schedule-item">
+            <div class="time">12:30 - 14:00</div>
+            <div class="details"><div class="event-title">Lunch Break</div></div>
         </div>
-        <div class="sub-item">
-            <div class="sub-time">11:45</div>
-            <div class="sub-details"><span class="speaker">Annika Kängsepp, Maarja-Liisa Pilvik, Kaidi Lõo, Külli Habicht, Liina Lindström:</span> <span class="title">Reading standard and nonstandard parallel forms in Estonian</span></div>
+        
+        <div class="schedule-item">
+            <div class="time">14:00 - 15:00</div>
+            <div class="details">
+                <div class="event-title">Invited Talk 4</div>
+                <span class="speaker">Jochen Laubrock:</span> <span class="title">The Predictive Reader: What Large Language Models Reveal About Reading Across Languages and Development</span>
+            </div>
         </div>
-        <div class="sub-item">
-            <div class="sub-time">12:00</div>
-            <div class="sub-details"><span class="speaker">Johanne S. K. Nedergaard, Solvej W. Jaeger, Ivalo I. Mathiassen:</span> <span class="title">Tracking reading in Kalaallisut: The morpheme as the basic unit of analysis</span></div>
+        
+        <div class="schedule-item">
+            <div class="time">15:00 - 16:00</div>
+            <div class="details"><div class="event-title">Poster Session and Coffee Break</div>(7 posters)</div>
         </div>
-        <div class="sub-item">
-            <div class="sub-time">12:15</div>
-            <div class="sub-details"><span class="speaker">Maroš Filip, Michaela Svoboda, Kateřina Chládková:</span> <span class="title">Eye-tracking of sign language: the effect of learning experience</span></div>
+
+        <div class="schedule-item">
+            <div class="time">16:00 - 16:30</div>
+            <div class="details"><div class="event-title">Closing Remarks</div></div>
         </div>
-    </div>
-    
-    <div class="schedule-item">
-        <div class="time">12:30 - 14:00</div>
-        <div class="details"><div class="event-title">Lunch Break</div></div>
-    </div>
-    
-    <div class="schedule-item">
-        <div class="time">14:00 - 15:00</div>
-        <div class="details">
-            <div class="event-title">Invited Talk 4</div>
-            <span class="speaker">Jochen Laubrock:</span> <span class="title">The Predictive Reader: What Large Language Models Reveal About Reading Across Languages and Development</span>
+
+        <hr style="margin: 40px 0; border: 0; border-top: 2px dashed #bdc3c7;">
+
+        <!-- POSTER SESSIONS DETAIL -->
+        <h1>Poster Sessions Detail</h1>
+        
+        <div class="poster-section">
+            <h3>Day 1: 16:30 - 17:30 | Poster Session and Coffee Break (7 posters)</h3>
+            <ul class="poster-list">
+                <li><span class="poster-authors">Kristina Cergol, Ana Matić, Eva Pavlinušić Vilus, Marijan Palmović</span> <span class="poster-title">Looking ahead in L1 and L2</span></li>
+                <li><span class="poster-authors">Jana Mara Hofmann, Deborah Noemie Jakobi, David Robert Reich, Paul Prasse, Lena Sophia Bolliger, Lena Ann Jäger</span> <span class="poster-title">A Living Overview of Eye-Tracking-while-Reading Datasets with Open Library Support</span></li>
+                <li><span class="poster-authors">Jan Brasser, Vera Demberg, Lena Ann Jäger, Maja Stegenwallner-Schütz</span> <span class="poster-title">Which reading measures are the strongest predictors of reading comprehension?</span></li>
+                <li><span class="poster-authors">Shan Gao, Cui Ding, Lena Ann Jäger</span> <span class="poster-title">A Multilingual Cross-Method Dataset for Evaluating Measurement Reliability of Individual Differences in Naturalistic Reading</span></li>
+                <li><span class="poster-authors">Daniele P. Radicioni, Patrizia Paggio, Alessandro Corona Mendozza, Matteo Delsanto, Alberto Parola, Viviana Patti, Calogero Jerik Scozzaro</span> <span class="poster-title">Genre Effects on Eye Movements in Italian Reading: Evidence from the MultiplEYE IT Dataset</span></li>
+                <li><span class="poster-authors">Adrielli Tina Lopes Rego, Joshua Snell, Martijn Meeter</span> <span class="poster-title">Capturing comprehension in the reading brain: Effects from language model-derived propositions on eye movements</span></li>
+                <li><span class="poster-authors">Thyra Krosness, Not Battesta Soliva, Lena Ann Jäger</span> <span class="poster-title">Minority and Heritage Reading Profiles: An Eye-Tracking Study on Romansh Sursilvan and Albanian</span></li>
+            </ul>
         </div>
-    </div>
-    
-    <div class="schedule-item">
-        <div class="time">15:00 - 16:00</div>
-        <div class="details"><div class="event-title">Poster Session and Coffee Break</div>(7 posters)</div>
+
+        <div class="poster-section">
+            <h3>Day 2: 10:45 - 11:45 | Poster Session and Coffee Break (7 posters)</h3>
+            <ul class="poster-list">
+                <li><span class="poster-authors">Cengiz Acarturk, Anna Wilkosz, Melike Çağlayan, Jakub Jan Romanowski</span> <span class="poster-title">Brain Activity Correlations in Reading: An Ongoing Study with fNIRS and Eye-Tracking Coregistration</span></li>
+                <li><span class="poster-authors">Hanne B. Søndergaard Knudsen</span> <span class="poster-title">Reading comprehension and cognition in Danish-speaking adults</span></li>
+                <li><span class="poster-authors">Lamija Zahirović, Lea Popović, Anastasija Žarevac, Eva Viktorija Zajc, Katarina Lasković, Kristian Elersič, Anja Podlesek</span> <span class="poster-title">Working Memory Capacity and Eye Movement Patterns in Reading: A Correlational Analysis of Regressions in the Slovenian MultiplEYE Dataset</span></li>
+                <li><span class="poster-authors">Onur Keleş, Sezen Bektaş Yüksel, Servet Arda Kayhan, Feyza Budan, İris Beyza Deveci, Nazik Dinctopal Deniz</span> <span class="poster-title">Effects of context length and text genre on Turkish language models’ prediction of human reading: A lossy-context surprisal analysis</span></li>
+                <li><span class="poster-authors">Rares-Alexandru Roscan, Oleksandra Kuvshynova, Mircea-Mihai Marin, Sergiu Nisioi</span> <span class="poster-title">Investigating the Effect of Text Simplification on Reading Comprehension in Advanced L2 English Speakers</span></li>
+                <li><span class="poster-authors">Nayana Raj, Uzma Junaid, Bristi Saha, Karuna Kumari Sah, Samar Husain</span> <span class="poster-title">Cross-linguistic Issues during Reading: The Case of Script and Morphological Complexity in Bangla, Malayalam, Hindi and Urdu</span></li>
+                <li><span class="poster-authors">Daria Horga, Antonia-Maria Popeanga</span> <span class="poster-title">Eye-Movement Patterns in Romanian Text Reading: A Linguistic Perspective</span></li>
+            </ul>
+        </div>
+
+        <div class="poster-section">
+            <h3>Day 2: 15:00 - 16:00 | Poster Session and Coffee Break (7 posters)</h3>
+            <ul class="poster-list">
+                <li><span class="poster-authors">Thyra Krosness, Claire Reymond, Annette Lichtenauer, Lena Ann Jäger, Simone Girard-Groeber</span> <span class="poster-title">Making it Easy: Guidelines for Designing Easy Language Multiple Choice Reading Comprehension Items</span></li>
+                <li><span class="poster-authors">Qingyang Tang</span> <span class="poster-title">Irony Processing in Bilingual Adults with Autism: Exploring the Pragmatic-Cognitive Interface through Eye-Tracking</span></li>
+                <li><span class="poster-authors">Hatice Ozata, Filiz Rızaoğlu</span> <span class="poster-title">Reading Goals in Eye-Tracking Research: A Comparative Analysis of Purpose-Driven Processing in L1 and L2 Readers</span></li>
+                <li><span class="poster-authors">Cengiz Acarturk, ESMEHAN ÖZER, Belgin Üstün Güllü, Halime Betül Kırmızı, Kardelen Çiftci</span> <span class="poster-title">Eye Movements and Reading Comprehension in Neurodivergent Readers: A Study on Children with Formal ADHD Diagnosis</span></li>
+                <li><span class="poster-authors">Akshay Mendhakar</span> <span class="poster-title">Evatrack: a flexible framework for standardised eye tracking research in reading research</span></li>
+                <li><span class="poster-authors">Isabelle Caroline Rose Cretton, David Robert Reich, Lena Ann Jäger</span> <span class="poster-title">Surprisal by Design: A Principled Pipeline for Human-LLM Stimulus Pairs in Eye-Tracking Reading Experiments</span></li>
+                <li><span class="poster-authors">Jurgita Motiejūnienė, Ramunė Kasperė, Vilma Linkevičiūtė, Valdas Grigaliunas, Paulius Budreika</span> <span class="poster-title">Methodological and accessibility challenges in eye-tracking research with Deaf and hard of hearing</span></li>
+            </ul>
+        </div>
     </div>
 
-    <div class="schedule-item">
-        <div class="time">16:00 - 16:30</div>
-        <div class="details"><div class="event-title">Closing Remarks</div></div>
-    </div>
-
-    <hr style="margin: 40px 0; border: 0; border-top: 2px dashed #bdc3c7;">
-
-    <!-- POSTER SESSIONS DETAIL -->
-    <h1>Poster Sessions Detail</h1>
-    
-    <div class="poster-section">
-        <h3>Day 1: 16:30 - 17:30 | Poster Session and Coffee Break (7 posters)</h3>
-        <ul class="poster-list">
-            <li><span class="poster-authors">Kristina Cergol, Ana Matić, Eva Pavlinušić Vilus, Marijan Palmović</span> <span class="poster-title">Looking ahead in L1 and L2</span></li>
-            <li><span class="poster-authors">Jana Mara Hofmann, Deborah Noemie Jakobi, David Robert Reich, Paul Prasse, Lena Sophia Bolliger, Lena Ann Jäger</span> <span class="poster-title">A Living Overview of Eye-Tracking-while-Reading Datasets with Open Library Support</span></li>
-            <li><span class="poster-authors">Jan Brasser, Vera Demberg, Lena Ann Jäger, Maja Stegenwallner-Schütz</span> <span class="poster-title">Which reading measures are the strongest predictors of reading comprehension?</span></li>
-            <li><span class="poster-authors">Shan Gao, Cui Ding, Lena Ann Jäger</span> <span class="poster-title">A Multilingual Cross-Method Dataset for Evaluating Measurement Reliability of Individual Differences in Naturalistic Reading</span></li>
-            <li><span class="poster-authors">Daniele P. Radicioni, Patrizia Paggio, Alessandro Corona Mendozza, Matteo Delsanto, Alberto Parola, Viviana Patti, Calogero Jerik Scozzaro</span> <span class="poster-title">Genre Effects on Eye Movements in Italian Reading: Evidence from the MultiplEYE IT Dataset</span></li>
-            <li><span class="poster-authors">Adrielli Tina Lopes Rego, Joshua Snell, Martijn Meeter</span> <span class="poster-title">Capturing comprehension in the reading brain: Effects from language model-derived propositions on eye movements</span></li>
-            <li><span class="poster-authors">Thyra Krosness, Not Battesta Soliva, Lena Ann Jäger</span> <span class="poster-title">Minority and Heritage Reading Profiles: An Eye-Tracking Study on Romansh Sursilvan and Albanian</span></li>
-        </ul>
-    </div>
-
-    <div class="poster-section">
-        <h3>Day 2: 10:45 - 11:45 | Poster Session and Coffee Break (7 posters)</h3>
-        <ul class="poster-list">
-            <li><span class="poster-authors">Cengiz Acarturk, Anna Wilkosz, Melike Çağlayan, Jakub Jan Romanowski</span> <span class="poster-title">Brain Activity Correlations in Reading: An Ongoing Study with fNIRS and Eye-Tracking Coregistration</span></li>
-            <li><span class="poster-authors">Hanne B. Søndergaard Knudsen</span> <span class="poster-title">Reading comprehension and cognition in Danish-speaking adults</span></li>
-            <li><span class="poster-authors">Lamija Zahirović, Lea Popović, Anastasija Žarevac, Eva Viktorija Zajc, Katarina Lasković, Kristian Elersič, Anja Podlesek</span> <span class="poster-title">Working Memory Capacity and Eye Movement Patterns in Reading: A Correlational Analysis of Regressions in the Slovenian MultiplEYE Dataset</span></li>
-            <li><span class="poster-authors">Onur Keleş, Sezen Bektaş Yüksel, Servet Arda Kayhan, Feyza Budan, İris Beyza Deveci, Nazik Dinctopal Deniz</span> <span class="poster-title">Effects of context length and text genre on Turkish language models’ prediction of human reading: A lossy-context surprisal analysis</span></li>
-            <li><span class="poster-authors">Rares-Alexandru Roscan, Oleksandra Kuvshynova, Mircea-Mihai Marin, Sergiu Nisioi</span> <span class="poster-title">Investigating the Effect of Text Simplification on Reading Comprehension in Advanced L2 English Speakers</span></li>
-            <li><span class="poster-authors">Nayana Raj, Uzma Junaid, Bristi Saha, Karuna Kumari Sah, Samar Husain</span> <span class="poster-title">Cross-linguistic Issues during Reading: The Case of Script and Morphological Complexity in Bangla, Malayalam, Hindi and Urdu</span></li>
-            <li><span class="poster-authors">Daria Horga, Antonia-Maria Popeanga</span> <span class="poster-title">Eye-Movement Patterns in Romanian Text Reading: A Linguistic Perspective</span></li>
-        </ul>
-    </div>
-
-    <div class="poster-section">
-        <h3>Day 2: 15:00 - 16:00 | Poster Session and Coffee Break (7 posters)</h3>
-        <ul class="poster-list">
-            <li><span class="poster-authors">Thyra Krosness, Claire Reymond, Annette Lichtenauer, Lena Ann Jäger, Simone Girard-Groeber</span> <span class="poster-title">Making it Easy: Guidelines for Designing Easy Language Multiple Choice Reading Comprehension Items</span></li>
-            <li><span class="poster-authors">Qingyang Tang</span> <span class="poster-title">Irony Processing in Bilingual Adults with Autism: Exploring the Pragmatic-Cognitive Interface through Eye-Tracking</span></li>
-            <li><span class="poster-authors">Hatice Ozata, Filiz Rızaoğlu</span> <span class="poster-title">Reading Goals in Eye-Tracking Research: A Comparative Analysis of Purpose-Driven Processing in L1 and L2 Readers</span></li>
-            <li><span class="poster-authors">Cengiz Acarturk, ESMEHAN ÖZER, Belgin Üstün Güllü, Halime Betül Kırmızı, Kardelen Çiftci</span> <span class="poster-title">Eye Movements and Reading Comprehension in Neurodivergent Readers: A Study on Children with Formal ADHD Diagnosis</span></li>
-            <li><span class="poster-authors">Akshay Mendhakar</span> <span class="poster-title">Evatrack: a flexible framework for standardised eye tracking research in reading research</span></li>
-            <li><span class="poster-authors">Isabelle Caroline Rose Cretton, David Robert Reich, Lena Ann Jäger</span> <span class="poster-title">Surprisal by Design: A Principled Pipeline for Human-LLM Stimulus Pairs in Eye-Tracking Reading Experiments</span></li>
-            <li><span class="poster-authors">Jurgita Motiejūnienė, Ramunė Kasperė, Vilma Linkevičiūtė, Valdas Grigaliunas, Paulius Budreika</span> <span class="poster-title">Methodological and accessibility challenges in eye-tracking research with Deaf and hard of hearing</span></li>
-        </ul>
-    </div>
-
-</div>
 </body>
 </html>
